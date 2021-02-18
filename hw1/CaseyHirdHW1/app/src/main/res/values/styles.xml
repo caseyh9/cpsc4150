@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textBox">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">@color/textBox_background</item>
+    </style>
+    <style name="button_style">
+        <item name="android:background">@color/textBox_background</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

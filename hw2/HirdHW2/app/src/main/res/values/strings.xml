@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HirdHW2</string>
+    <string name="pig_picture">Animated pig picture</string>
+    <string name="start_button"><b>START GAME</b></string>
+    <string name="about_button"><b>ABOUT PIG DICE</b></string>
+    <string name="bank_button">BANK SCORE</string>
+    <string name="roll_again_button">ROLL AGAIN</string>
+    <string name="score_default">0</string>
+    <string name="banker_name"><b>Banker</b></string>
+    <string name="player_name"><b>Player</b></string>
+    <string name="winning_score_name"><b>Target Score</b></string>
+    <string name="dice_description">A picture of a die</string>
+    <string name="player_win_title">You won!</string>
+    <string name="bank_win_title">You lost!</string>
+    <string name="player_win_message">Congratulations! Would you like to play again?</string>
+    <string name="bank_win_message">Better luck next time. Would you like to play again?</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="return_to_home">BACK TO HOME SCREEN</string>
+    <string name="round_label">Round 1 — Player\'s Turn</string>
+    <string name="target_score">Enter Target Score</string>
+    <string name="positive_button">OK</string>
+    <string name="about_title">About Pig Dice</string>
+    <!-- Description taken from wikipedia -->
+    <string name="about_description">Pig is a simple dice game. Players take turns to roll a single die as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1. In this version, the player (you) plays against a computerized opponent called the banker.</string>
+    <string name="about_credits">The pig drawable is from <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></string>
+</resources>

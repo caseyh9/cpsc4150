@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_main.xml
+    defines the layout for the main activity
+
+    Note the Linear layout is from zybooks 2.2, the imageView is from zybooks 2.9, the textView is
+    from zybooks 2.5, and:
+    This pig drawable is from <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    Casey Hird
+    C12932552
+    crhird@clemson.edu
+-->
+<!-- The code for linear layout is from zybooks 2.2 -->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:orientation="vertical">
+
+    <!-- The code for ImageView is from zybooks 2.9 -->
+    <!-- This pig drawable is from <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+    <ImageView
+        android:id="@+id/pigImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="5"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/pig_picture"
+        android:src="@drawable/pig" />
+
+    <!-- The code for TextView is from zybooks 2.5 -->
+    <Button
+        android:layout_width="260dp"
+        android:paddingHorizontal="50dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginVertical="10dp"
+        android:onClick="onStartGameClick"
+        style="@style/button_style"
+        android:text="@string/start_button" />
+
+    <Button
+        android:layout_width="260dp"
+        android:paddingHorizontal="50dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginVertical="10dp"
+        android:onClick="onAboutClick"
+        style="@style/button_style"
+        android:text="@string/about_button" />
+</LinearLayout>

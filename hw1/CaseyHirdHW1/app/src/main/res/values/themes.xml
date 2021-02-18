@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CaseyHirdHW1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/textBox_background</item>
+        <item name="colorPrimaryVariant">@color/textBox_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:colorBackground">@color/background_blue</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="colorAccent">@color/textBox_background</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

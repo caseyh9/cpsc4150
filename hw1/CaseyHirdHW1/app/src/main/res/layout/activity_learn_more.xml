@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    Casey Hird
+    C12932552
+    crhird@clemson.edu
+    ******************
+    activity_learn_more.xml defines the layout for the learn more activity.
+    References: stack overflow
+-->
+<!-- The code for scroll view and table layout were found on stack overflow -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction"
+            style="@style/textBox" />
+
+        <ImageView
+            android:id="@+id/LMImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:contentDescription="@string/einstein_description"
+            android:src="@drawable/einstein" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favorites"
+            style="@style/textBox" />
+
+        <ImageView
+            android:id="@+id/LMImage2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:contentDescription="@string/plaza_description"
+            android:src="@drawable/plaza" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hobbies_and_FF"
+            style="@style/textBox" />
+    </TableLayout>
+</ScrollView>

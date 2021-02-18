@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hird_HW1</string>
+    <string name="main_pic_description">Picture of me, Casey Hird</string>
+    <string name="greeting">Hello World, I\'m Casey</string>
+    <string name="button_text">LEARN MORE</string>
+    <string name="einstein_description">Picture of me on giant Einstein statue</string>
+    <string name="plaza_description">Picture of me and Tae at BLM plaza in DC</string>
+    <string name="introduction">Hi, my name is Casey Hird. I\'m a senior math major from
+    Spartanburg, SC.</string>
+    <string name="favorites">My favorite programming language is C++ because it is what I learned to use for algorithms in 2120, so I\'m a big fan of the STL. My favorite food is a PB&amp;J sandwich.</string>
+    <string name="hobbies_and_FF">My hobbies include playing basketball, tennis, and guitar. A fun fact about me is that I was right in front of the camera at the 2018 CFP Natty.</string>
+</resources>

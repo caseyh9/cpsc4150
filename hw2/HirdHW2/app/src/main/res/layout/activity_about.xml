@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_about.xml
+    defines the layout for the about activity
+
+    Note the Linear layout is from zybooks 2.2.
+
+    Casey Hird
+    C12932552
+    crhird@clemson.edu
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_title"
+        style="@style/about_title_style"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_description"
+        style="@style/about_description_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_credits"
+        style="@style/about_description_style"/>
+
+    <ImageView
+        android:id="@+id/pigImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="30dp"
+        android:layout_weight="5"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/pig_picture"
+        android:src="@drawable/pig" />
+
+</LinearLayout>
